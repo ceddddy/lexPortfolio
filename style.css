@@ -11,7 +11,9 @@ body {
 }
 
 header {
-  background-color: #25b79f;
+  background-color: white;
+  /* background: url('images/Rectangle\ 4.png'); */
+  background: #6070FF;
   height: 100vh;
 }
 
@@ -47,7 +49,8 @@ header {
 
 .menu-items a {
   text-decoration: none;
-  color: #f0f0e6;
+  /* color: #f0f0e6; */
+  color: #07374a;
   font-size: 1.2rem;
   padding: 0.3rem;
 }
@@ -80,7 +83,8 @@ header {
 }
 
 .home-content .name p {
-  color: #f0f0e6;
+  /* color: #f0f0e6; */
+  color: #07374a;
   font-size: 1.5rem;
 }
 
@@ -103,12 +107,16 @@ header {
 /* ////........About Me........//// */
 
 .about-me {
-  background-color: #07374a;
+  /* background-color: #07374a; */
+  /* background-color: white; */
+  /* background-color: #6070FF; */
+  background: url('images/Rectangle\ 4.png');
   padding: 6rem 0;
 }
 
 .about-me .about-heading {
-  color: #25b79f;
+  /* color: #25b79f; */
+  color: #07374a;
   font-size: 2rem;
   font-weight: 600;
   text-align: center;
@@ -123,7 +131,8 @@ header {
 
 .about-content p {
   font-size: 1.2rem;
-  color: #f0f0e6;
+  /* color: #f0f0e6; */
+  color: #07374a;
   padding: 0 2.3rem;
   text-align: center;
 }
@@ -131,7 +140,8 @@ header {
 .skills .skills-heading {
   font-size: 2rem;
   font-weight: 600;
-  color: #25b79f;
+  /* color: #25b79f; */
+  color: #07374a;
   text-align: center;
 }
 
@@ -166,7 +176,8 @@ header {
 
 .skills-bar .bar .info {
   margin-bottom: 8px;
-  color: #f0f0e6;
+  /* color: #f0f0e6; */
+  color: #07374a;
 }
 
 .skills-bar .bar .progress-line {
@@ -182,7 +193,8 @@ header {
 
 .bar .progress-line span {
   position: absolute;
-  background: #25b79f;
+  /* background: #25b79f; */
+  background: #07374a;
   height: 100%;
   border-radius: 10px;
   transform: scaleX(0);
@@ -280,7 +292,8 @@ header {
 .work-arrow a {
   font-size: 1rem;
   text-decoration: none;
-  color: #25b79f;
+  /* color: #25b79f; */
+  color: #07374a;
 }
 
 .work-arrow-2 {
@@ -290,16 +303,32 @@ header {
 .work-arrow-2 a {
   font-size: 1rem;
   text-decoration: none;
-  color: #25b79f;
+  /* color: #25b79f; */
+  color: #07374a;
   display: none;
 }
 
 /* ////.....Portfolio......///// */
 
 .portfolio {
-  background: #25b79f;
+  /* background: #25b79f; */
+  /* background: white; */
+  background: #6070FF;
   padding: 6rem 0;
 }
+
+#portfolio {
+  background: url('images/Rectangle\ 4.png');
+  height: 100vh;
+}
+
+.elevator-text {
+  margin: 7%;
+  /* padding: 7%; */
+  /* padding-left: 2%; */
+  /* padding-right: 2%; */
+  text-align: center;
+} 
 
 .proj-heading h1{
   text-align: center;
@@ -470,10 +499,26 @@ header {
   border-bottom: 2px solid #f0f0e6;
 }
 
+.pdf-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #07374a;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.pdf-button:hover {
+  background-color: #01141b;
+  color: #6070FF;
+}
 /* ////......Contact......///// */
 
 .contact {
-  background: #07374a;
+  /* background: #07374a; */
+  /* background: white; */
+  background: #6070FF;
+  /* background: url('images/Rectangle\ 4.png'); */
   position: relative;
   height: 92vh;
 }
@@ -489,7 +534,8 @@ header {
 .contact-content h2 {
   font-size: 2.5rem;
   font-weight: 400;
-  color: #25b79f;
+  /* color: #25b79f; */
+  color: #07374a;
   padding-bottom: 0.5rem;
 }
 
@@ -500,7 +546,8 @@ header {
 }
 
 .contact-content .links {
-  color: #25b79f;
+  /* color: #25b79f; */
+  color: #07374a;
   padding: 0.5rem;
   padding-bottom: 1.8rem;
   font-size: 1rem;
@@ -508,7 +555,8 @@ header {
 
 .contact-content a {
   text-decoration: none;
-  color: #25b79f;
+  /* color: #25b79f; */
+  color: #07374a;
   padding: 0.5rem;
   transition: 0.3s ease-in-out;
 }
