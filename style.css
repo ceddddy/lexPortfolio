@@ -110,7 +110,8 @@ header {
   /* background-color: #07374a; */
   /* background-color: white; */
   /* background-color: #6070FF; */
-  background: url('images/Rectangle\ 4.png');
+  /* background: url('images/Rectangle\ 4.png'); */
+  background-color: #BDBDBD;
   padding: 6rem 0;
 }
 
@@ -318,7 +319,8 @@ header {
 }
 
 #portfolio {
-  background: url('images/Rectangle\ 4.png');
+  /* background: url('images/Rectangle\ 4.png'); */
+  background-color: #BDBDBD;
   height: 100vh;
 }
 
