@@ -123,6 +123,11 @@ header {
   text-align: center;
 }
 
+.paraPitch {
+  font-style: italic;
+  text-align: center;
+}
+
 .about-content img {
   height: 200px;
   width: 150px;
